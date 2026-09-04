@@ -41,32 +41,5 @@ Custom FPGA Memory / Register Logic
 ```
 
 # 2. System Architecture
-                 +------------------+
-External Clock → |     FCCC_C0      |
-                 | Clock Conditioning|
-                 +---------+--------+
-                           |
-                           | GL0
-                           ▼
-                 +------------------+
-                 |      MSS_C0      |
-                 |                  |
-                 | ARM Cortex-M3    |
-                 |                  |
-                 | FIC_0 AHB MASTER |
-                 +---------+--------+
-                           |
-                           ▼
-                 +------------------+
-                 |   CoreAHBLite_C0 |
-                 |                  |
-                 | AHB Interconnect |
-                 +---------+--------+
-                           |
-                           ▼
-                 +------------------+
-                 |   AHB_SLAVE_0    |
-                 |                  |
-                 | Custom Verilog   |
-                 | AHB-Lite Slave   |
-                 +------------------+
+
+
