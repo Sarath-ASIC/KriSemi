@@ -45,3 +45,11 @@ Custom FPGA Memory / Register Logic
 ![System Architecture](Result_Files/Firmware_design_flow.png)
 
 
+# 3. Simulation result
+
+![System Architecture](Result_Files/Firmware_sim.png)
+
+# 4. Compilation result
+![System Architecture](Result_Files/terminal_result.png)
+
+
