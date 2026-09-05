@@ -42,4 +42,6 @@ Custom FPGA Memory / Register Logic
 
 # 2. System Architecture
 
+![System Architecture](images/Firmware_design_flow.png)
+
 
