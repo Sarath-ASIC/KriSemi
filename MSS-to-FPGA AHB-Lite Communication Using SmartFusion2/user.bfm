@@ -1,0 +1,14 @@
+include "subsystem.bfm"
+
+memmap AHB_SLAVE 0x30000000;
+
+procedure user_main;
+
+call subsystem_init;
+
+write w AHB_SLAVE 0x00 0x12345678;
+write w AHB_SLAVE 0x04 0xA5A5A5A5;
+write w AHB_SLAVE 0x08 0xCAFEBABE;
+write w AHB_SLAVE 0x0C 0xDEADBEEF;
+
+return
