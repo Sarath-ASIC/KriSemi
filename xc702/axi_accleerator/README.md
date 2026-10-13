@@ -1,4 +1,4 @@
-# AXI-Based Hardware Accelerator on Xilinx Zynq-7000
+# AXI-Based Hardware Accelerator on Xilinx Zynq-7000 (xc7z020clg484-1)
 
 **Project:** Build AXI Accelerator
 **Platform:** Xilinx Zynq-7000 ZC702 Evaluation Board
